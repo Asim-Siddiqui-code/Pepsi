@@ -1,0 +1,398 @@
+body {
+    background: black;
+}
+
+#main-heading {
+    font-size: 100px;
+}
+.container{
+    overflow: hidden;
+}
+
+#bg-image {
+    background-image: url(https://www.pepsi.com/s3fs-public/2024-08/JUST%20DON%2002.JPEG);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    width: 850px;
+    height: 600px;
+}
+
+#carousel {
+    width: 400px;
+    height: 500px;
+    align-items: center;
+}
+
+.carousel-center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+#left-hero-section {
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+#hero-heading {
+    font-size: 3rem;
+    color: white;
+    font-family: "Kanit";
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 0;
+    line-height: 0.85;
+}
+
+.PEPSI {
+    font-size: 8rem;
+    color: white;
+    font-family: "Kanit";
+    font-weight: bolder;
+}
+
+.DROPS {
+    font-size: 6rem;
+    color: white;
+    font-family: "Kanit";
+    font-weight: bolder;
+}
+
+.button {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 65px;
+    transition: 0.5s ease;
+}
+
+.button:hover {
+    background-color: white;
+    color: blue;
+}
+
+p span {
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.hero-section-heading {
+    display: none;
+}
+.for-responsive-para{
+    display:none;
+    }
+    .Address{
+        display: none;
+        
+    }
+    #video-size-first{
+        width: 1354px;
+        height: 761.625px;
+    }
+    #video-size{
+        width: 1354px;
+        height: 761.625px;
+    }
+    .video-button {
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 30px;
+        width: 300px;
+        height: 65px;
+        transition: 0.5s ease;
+    }
+    .video-button:hover {
+        background-color: white;
+        color: blue;
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        margin-top: -160px;
+    }
+    .video-button-for-mobile{
+        display: none;
+    }
+    .for-mobile-pic img{
+        display: none;
+    }
+    #for-pc-button{
+        display: block;
+        position: relative;
+        bottom: 80px;
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        margin-left: 65px;
+        background-color: blue;
+        border: none;
+        border-radius: 30px;
+        width: 300px;
+        height: 65px;
+        transition: 0.5s ease;
+    }
+    #for-pc-button:hover {
+        background-color: white;
+        color: blue;
+    }
+    .AfterVideo-pepsi-logo{
+        margin-top: 12rem;
+        display: flex;
+        justify-content: center;
+    }
+    .text h1{
+        font-size: 4.5rem;
+        color: white;
+        font-family: "Kanit";
+        font-weight: bolder;
+        text-align: center;
+        line-height: 100px;
+    }
+    .text h1 span{
+        font-size: 10rem;
+        color:blue;
+        font-family: "Kanit";
+        font-weight: bolder;
+    }
+    .footer{
+        font-size: 1rem;
+        color:white;
+        font-family: "Kanit";
+        font-weight: bolder;
+    }
+    .fa-instagram{
+        color: white;
+        font-size: 50px;
+    }
+    .fa-youtube{
+        color: white;
+        font-size: 50px;
+    }
+    .fa-square-facebook{
+        color: white;
+        font-size: 50px;
+    }
+    .fa-square-x-twitter{
+        color: white;
+        font-size: 50px;
+    }
+    .fa-threads{
+        color: white;
+        font-size: 50px;
+    }
+    .fa-tiktok{
+        color: white;
+        font-size: 50px;
+    }
+    #footer-length{
+        height: 250px;
+    }
+
+/* media queries */
+@media screen and (max-width:430px) {
+    .col-md-4 img {
+        /* position: absolute;
+        left: 20px; */
+        margin-left: 90px;
+        max-width: 215px;
+        max-height: 464px;
+        margin-bottom: 30px;
+    }
+
+    #main-heading {
+        font-size: 50px;
+    }
+
+    #carousel {
+
+        width: 300px;
+        height: 200px;
+        align-items: center;
+    }
+
+    .carousel-item img {
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 200px;
+    }
+
+    #bg-image {
+        background-image: url(https://www.pepsi.com/s3fs-public/2024-08/JUST%20DON%2002.JPEG);
+        background-size: cover;
+        background-position: center;
+        margin-top: 40px;
+        width: 850px;
+        height: 560px;
+    }
+
+    .hero-section-heading {
+        display: block;
+    }
+
+    #hero-heading {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 2.3rem;
+        color: white;
+        font-family: "Kanit";
+        font-weight: bolder;
+    }
+
+    h2 {
+        margin-bottom: 0;
+        line-height: 0.85;
+    }
+
+    .PEPSI {
+        font-size: 6.5rem;
+        text-align: center;
+        color: white;
+        font-family: "Kanit";
+        font-weight: bolder;
+    }
+
+    .DROPS {
+        font-size: 6rem;
+        text-align: center;
+        color: white;
+        font-family: "Kanit";
+        font-weight: bolder;
+    }
+.content-heading{
+    display: none;
+}
+#for-desktop {
+    display: none;
+}
+.for-responsive-para{
+
+display: block;
+color: white;
+width: 400px;
+margin-left: 25%;
+}
+span{
+    display: none;
+}
+.Address{
+    display: block;
+    margin-left: 10%;
+    width: 400px;
+    color: white;
+    margin-bottom: 120px;
+}
+#video-size-first{
+ display: none;
+}
+.video-button{
+    display: none;
+}
+.for-mobile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.pepsi.com/s3fs-public/2024-07/gno-prep-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 520px;
+}
+.for-mobile-pic img{
+    display: block;
+    width: 204px;
+    height: 181px; 
+}
+.video-button-for-mobile{
+    display: block;
+    position: relative;
+    bottom: 80px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    margin-left: 120px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    width: 179px;
+    height: 44px;
+    transition: 0.5s ease;
+}
+.video-button-for-mobile:hover {
+    background-color: white;
+    color: blue;
+}
+#video-size{
+    width: 430px;
+    height: 764.44px;
+    justify-content: center;
+}
+.video-button-for-mobile-second-heading{
+    display: block;
+    position: relative;
+    bottom: 80px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    margin-left: 120px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    width: 179px;
+    height: 44px;
+    transition: 0.5s ease;
+}
+.video-button-for-mobile-second-heading:hover {
+    background-color: white;
+    color: blue;
+}
+.text h1{
+    display: none;
+}
+.text h1 span {
+    display: none;
+}
+.AfterVideo-pepsi-logo{
+    display: none;
+}
+.AfterVideo-pepsi-logo{
+    display: block;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#text h1{
+    display: block;
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Kanit";
+    font-weight: bolder;
+    text-align: center;
+    line-height: 60px;
+}
+#text h1 span{
+    display: block;
+    font-size: 6rem;
+    color:blue;
+    font-family: "Kanit";
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+#footer-length{
+    height: 150px;
+}
+}
